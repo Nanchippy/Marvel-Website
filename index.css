@@ -1,0 +1,232 @@
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 128px;
+}
+:root{
+	bgcolor : whitesmoke;
+}
+
+.block{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1,h3{
+	font-size: 26px;
+    font-weight: normal;
+    line-height: 45px;
+    position: relative;
+    padding: 0px 0px 5px 0px;
+    letter-spacing: 1px;}
+h3{
+	font-size: 20px;
+}
+
+p{
+	font-size: 18px;
+	line-height: 30px;
+	color: #7a7a7a;
+}
+
+@media (min-width: 800px){
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+	body{
+		margin: 0px;
+		padding: 0px;
+		color: black;
+		background-color: whitesmoke;
+		/* font-family: 'Lora', serif; */
+		/* font-family: helvetica; */
+		font-family: 'Poppins', sans-serif;
+	}
+	.dark-background{
+		background-color: #121212;
+		color: whitesmoke;
+	}
+	#navi{
+		width: 100%;
+		height: 10%;
+		position: relative;
+		z-index: 1;
+	}
+	.logo{
+		/* height: 80px;
+		width: 180px;
+	    height: 80px; */
+    width: 180px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -40px;
+    border-radius: 35px;
+	}
+	nav{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		/* background-color: #030303;; */
+		backdrop-filter: blur(16px);
+		background: transparent;
+		/* color: #0e0e11; */
+	}
+	ul{
+		list-style-type: none;
+		display: flex;
+		margin-right: -64px;
+	}
+
+	.menu li a{
+		height: 40px;
+		line-height: 43px;
+		margin: 3px;
+		padding: 0px 22px;
+		display: flex;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: 0.5px;
+		font-family: sans-serif;
+		color: whitesmoke;
+		transition-duration: 1s;
+	}
+
+	.menu li a:hover{
+		background-color: black;
+		color: white;
+		border-radius: 10px;
+		box-shadow: 1px 1px 2px white;
+		
+	}
+	.menu li input{
+		height: 40px;
+		line-height: 43px;
+		margin: 3px;
+		padding: 0px 22px;
+		display: flex;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: 0.5px;
+		font-family: sans-serif;
+		color: white;
+		background-color: black;
+		border-radius: 15px;
+		border-width: 0;
+		margin-left: 8px;
+	}
+	.menu li input:hover{
+		/* background-color: red; */
+		color: white;
+		border-radius: 15px;
+		box-shadow: 1px 1px 2px white;
+	}
+
+	a{
+		text-decoration: none;
+	}
+	.intro{
+		margin-top: 50px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#intro1{
+		margin-top: 150px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.click{
+		border-radius: 5px;
+		transition-duration: 1s;
+
+	}
+	
+	.click:link, .click:visited{
+		/* background-color: #000000;
+		color: #fff; */
+		color: rgb(122, 122, 122);
+		border: 2px solid;
+		padding: 5px;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		margin-left: 10px;
+		border-width: 1px;
+		border-radius: 18%;
+		/* box-shadow: 1px 1px 2px white; */
+	}
+	.click:hover, .click:active{
+		background-color: black;
+		color: white;
+		/* border-radius: 10px; */
+		box-shadow: 1px 1px 2px white;
+		/* background-color: red;
+		color: white; */
+	}
+	.click{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.container{
+
+		margin: 20px;
+		align-items: center;
+		max-width: 39%;
+		/* max-width: 46%; */
+		/* height: 737px; */
+		max-height: 46%;
+		background-color: #0e0e11;
+		border-radius: 5%;
+		transition-duration: 1s;
+
+	}
+	.container:hover{
+		transform: scale(1.05);
+		box-shadow: 0 0 10px;
+	}
+	.image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		margin-top: 17px;
+		margin-bottom: 17px;
+
+		/* padding-left: 5%;
+		max-width: 50%;
+		max-height: 75%;
+		height: 500px; */
+	}
+	.avenge{
+		padding: 5%;
+		font-size: 90%;
+		color: white;
+	}
+	.block1{
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 5%;
+	}
+	table{
+		font-family: arial;
+		border-collapse: no-collapse;
+		width: 100%;
+			}
+			td,th{
+				border: 5px solid darkblue;
+				text-align: left;
+				padding: 18px;
+				font-size: 1.2em;
+			}
+			th{
+				text-align: center;
+			}
