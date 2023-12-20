@@ -3,7 +3,7 @@ html{
 	scroll-padding-top: 128px;
 }
 :root{
-	bgcolor : whitesmoke;
+	--bgcolor : whitesmoke;
 }
 
 .block{
